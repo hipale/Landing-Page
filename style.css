@@ -1,6 +1,13 @@
+* {
+    font: roboto;
+}
 header, footer {
     background-color: #1F2937;
-  
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 #Logo {
     font-size: 24px;
@@ -10,16 +17,17 @@ nav {
     font-size: 18px;
     color: #E5E7Eb;
     display: flex;
+    
 }
 #logoNav {
+   
     display: flex;
-    flex-direction: row;
-    gap: 700px;
+   gap: 350px;
 }
 
 #bigSect {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: extrabold;
     color: #F9FaF8;
 }
 #SmallSect, button {
@@ -46,4 +54,6 @@ button {
 }
 #mainCont {
 display: flex;
+gap: 7px;
+margin-bottom: 75px;
 }
