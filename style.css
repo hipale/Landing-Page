@@ -1,0 +1,49 @@
+header, footer {
+    background-color: #1F2937;
+  
+}
+#Logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+nav {
+    font-size: 18px;
+    color: #E5E7Eb;
+    display: flex;
+}
+#logoNav {
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+}
+
+#bigSect {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FaF8;
+}
+#SmallSect, button {
+    font-size: 18px;
+    color: #E5E7Eb; 
+}
+button {
+    background-color: #3882F6;
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+.header {
+    margin: 15px;
+    opacity: 0.85;
+}
+.headerMain {
+    height: 200px;
+    width: 450px;
+}
+#img1 {
+    background-color: grey;
+}
+#mainCont {
+display: flex;
+}
