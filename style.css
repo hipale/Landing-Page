@@ -1,5 +1,5 @@
 * {
-    font: roboto;
+    font-style: roboto;
 }
 header, footer {
     background-color: #1F2937;
@@ -27,7 +27,7 @@ nav {
 
 #bigSect {
     font-size: 48px;
-    font-weight: extrabold;
+    font-weight: bold;
     color: #F9FaF8;
 }
 #SmallSect, button {
@@ -56,4 +56,36 @@ button {
 display: flex;
 gap: 7px;
 margin-bottom: 75px;
+}
+.smallImg {
+    border: 4px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+#inf {
+font-size: 36px;
+font-weight: bold;
+color: #1F2937;
+text-align: center;
+}
+#Conta1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 20px;
+}
+caption {
+  text-justify: center;
+}
+#Part1 {
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+#Part2 {
+    background-color: #E5E7Eb;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937;
 }
