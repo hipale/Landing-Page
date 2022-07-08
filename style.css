@@ -37,7 +37,7 @@ nav {
 }
 button {
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 5px;
     border: none;
     width: 100px;
     height: 25px;
@@ -103,26 +103,28 @@ text-align: center;
 }
 #sectCall {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 23px;
 }
 .smallTxt {
     font-weight: normal;
+    font-size: 18px;
 }
 #Part3 {
     display: flex;
-    gap: 200px;
+    gap: 150px;
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
     color: white;
-    margin: 150px;
+    margin: 100px;
     padding: 75px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 #signButt {
     border: 3px solid white;
     width: 150px;
     height: 40px;
+    border-radius: 10px;
 }
 footer {
     color: white;
