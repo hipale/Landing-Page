@@ -1,5 +1,6 @@
 * {
     font-style: roboto;
+    margin: 0;
 }
 header, footer {
     background-color: #1F2937;
@@ -75,8 +76,9 @@ text-align: center;
     justify-content: center;
     margin: 20px;
 }
-caption {
-  text-justify: center;
+#Capt {
+  text-align: center;
+  font-size: 18px;
 }
 #Part1 {
     margin-bottom: 120px;
@@ -86,6 +88,44 @@ caption {
     background-color: #E5E7Eb;
     padding: 50px;
     font-size: 36px;
-    font-weight: italic;
+    font-style: italic;
     color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    flex-direction: column;
+}
+#thor {
+    font-weight: bold;
+    align-self: flex-end;
+    font-style: normal;
+}
+#sectCall {
+    font-weight: bold;
+    font-size: 36px;
+}
+.smallTxt {
+    font-weight: normal;
+}
+#Part3 {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 150px;
+    padding: 75px;
+    border-radius: 20px;
+}
+#signButt {
+    border: 3px solid white;
+    width: 150px;
+    height: 40px;
+}
+footer {
+    color: white;
+    padding: 50px;
+    font-size: 18px;
 }
